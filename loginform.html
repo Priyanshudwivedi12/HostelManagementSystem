@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login form</title>
+<style> 
+body{
+padding:0px;
+margin:0px;
+background-color:#34495e;
+font-family:sans-serif;
+}
+.box{
+width:300px;
+padding:50px;
+position:absolute;
+top:60%;
+left:45%;
+transform:translate(-50%,-50%);
+background:#191919;
+text-align:center;
+}
+.box input[type="text"],.box input[type="password"]{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border:2px solid #3498db;
+padding:14px 10px;
+width:200px;
+outline:none;
+color:white;
+border-radius:25px;
+}
+.box h1{
+color:white;
+text-transform:uppercase;
+font-weight:300;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width:280px;
+border-color:#2ecc71;
+}
+.box input[type="submit"]{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border:2px solid #2ecc71;
+padding:14px 40px;
+outline:none;
+color:white;
+border-radius:25px;
+cursor:pointer;
+}
+.box input[type="submit"]:hover{
+background: #2ecc71;
+}
+.pic{
+   padding:40px;
+   margin:20px;
+   width:"100px";
+   height:"100px";  
+   float:right;
+   background-attachment:scroll;
+}
+.applicant{
+margin:100px;
+position:absolute;
+top:5%;
+left:33%;
+}
+</style>
+</head>
+<body>
+
+<div class="pic">
+<img src="logo.jpg">
+</div>
+<div class="applicant">
+<img src="applicant.png">
+</div>
+
+<form class="box" action="/home/rupeshruppu/Desktop/HTML" method="post">
+<h1> LOGIN </h1>
+<input type="text" name="" placeholder="username">
+<input type="password" name="" placeholder="password">
+<input type="submit" name="" value="submit">
+</form>
+
+
+</body>
+<html>

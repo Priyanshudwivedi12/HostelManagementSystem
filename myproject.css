@@ -1,0 +1,56 @@
+* {
+background-color:solid grey;
+}
+body
+{
+margin:20px;
+padding:20px;
+}
+#heading {
+font-style:italic;
+font-weight:bold;
+background-color:rgb(255,0,0);
+}
+h1 {
+text-align:center 
+font-size : 25px; 
+font-style : italic ;
+color :black;
+}
+.header {
+   background-image : url("hostels3.png");
+   border:2px;
+    }
+button {
+padding:20px;
+margin:20px;
+font-weight: bold;
+}
+#para {
+font-style:italic;
+text-align:left;
+font-weight:bold;
+color :black;
+background-image:url("boygirl.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+background-attachment: scroll;
+}
+th {
+background-color:skyblue;
+}
+tr {
+padding:20px;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+} 
+tr:nth-child(odd){
+background-color:rgb(200,150,100);
+}
+
+
+
+
+
+
